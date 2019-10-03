@@ -1,0 +1,61 @@
+@import '../../assets/scss/common.scss';
+
+.body-d{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.body-bg{
+    background-color: #fff;
+    width: 100%;
+    min-height: 100vh;
+    padding: 15px;
+}
+
+.pxx-5{
+  padding: 0rem 10rem;
+}
+
+.home-title > h1 {
+  font-family: 'sf-bold';
+  font-weight: 600;
+  color: $myColor;
+}
+
+.linked-btn {
+  text-align:center;
+  cursor: pointer;
+  overflow:hidden;
+}
+
+.btn-style{
+  border: 2px solid $myColor;
+  color: $myColor;
+  background-color: #fff;
+  font-size: 10px;
+  font-family: 'sf-bold';
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height:50px;
+  transition:all .5s ease;
+  z-index:2;
+  position:relative;
+}
+
+.btn-style:hover {
+  top:0;
+  color:#fff;
+  background-color: #f23333;
+}
+
+.signup-btn {
+  text-align:center;
+  cursor: pointer;
+  overflow:hidden;
+}
+
+.fnt-sm{
+  font-size: 13px;
+  text-decoration: none
+}
