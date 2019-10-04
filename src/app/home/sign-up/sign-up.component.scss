@@ -1,7 +1,19 @@
-@import "../home.component.scss";
+@import '../../../assets/scss/common.scss';
 
-.padding-all{
-    margin: 0 19.5rem;
+.body-d{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.body-bg{
+    background-color: #fff;
+    width: 100%;
+    min-height: 100vh;
+    padding: 15px;
+}
+
+.margin-all{
+    margin: 0 31%;
 }
 
 .sm-fnt{
@@ -9,7 +21,7 @@
 }
 
 .mar-form {
-    margin: 0px 22rem;
+    margin: 0px 30%;
 }
 
 .bord-form {
@@ -17,3 +29,68 @@
     border-radius: 2px;
     height: 2.7rem;
 }
+
+.linked-btn {
+    text-align:center;
+    cursor: pointer;
+    overflow:hidden;
+  }
+  
+  .btn-style{
+    border: 2px solid $myColor;
+    color: $myColor;
+    background-color: #fff;
+    font-size: 10px;
+    font-family: 'sf-bold';
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height:50px;
+    transition:all .5s ease;
+    z-index:2;
+    position:relative;
+  }
+  
+  .btn-style:hover {
+    top:0;
+    color:#fff;
+    background-color: #f23333;
+  }
+  
+  .signup-btn {
+    text-align:center;
+    cursor: pointer;
+    overflow:hidden;
+  }
+  
+  .fnt-sm{
+    font-size: 13px;
+    text-decoration: none
+  }
+
+@media only screen and (max-width: 765px) {
+    .mar-form {
+        margin: 0px 15%;
+    }
+
+    .margin-all{
+        margin: 0 15%;
+    }
+};
+
+@media only screen and (max-width: 475px) {
+    .mar-form {
+        margin: 0px;
+    }
+
+    .margin-all{
+        margin: 0;
+    }
+
+    .body-bg{
+        background-color: #fff;
+        width: 100%;
+        min-height: 100vh;
+        padding: 0px;
+    }
+};

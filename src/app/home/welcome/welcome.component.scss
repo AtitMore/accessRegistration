@@ -1,1 +1,14 @@
 @import "../home.component.scss";
+
+
+@media only screen and (max-width: 560px) {
+    .pxx-5{
+      padding: 0rem 5%;
+    }
+};
+  
+@media only screen and (max-width: 320px) {
+    .pxx-5{
+        padding: 0;
+    }
+}

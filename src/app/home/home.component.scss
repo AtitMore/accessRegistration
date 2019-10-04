@@ -13,7 +13,7 @@
 }
 
 .pxx-5{
-  padding: 0rem 10rem;
+  padding: 0rem 13%;
 }
 
 .home-title > h1 {
@@ -58,4 +58,34 @@
 .fnt-sm{
   font-size: 13px;
   text-decoration: none
+}
+
+@media only screen and (max-width: 560px) {
+  .pxx-5{
+    padding: 0rem 5%;
+  }
+};
+
+@media only screen and (max-width: 320px) {
+  .pxx-5{
+    padding: 0;
+  }
+
+  .body-bg{
+    background-color: #fff;
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px 0px;
+}
+}
+
+@media only screen and (max-width: 282px) {
+  .btn-style{
+    border: 1px solid $myColor;
+    font-size: 10px;
+    line-height:10px;
+    padding: 5px 10px;
+    text-transform: capitalize;
+  }
+
 }
